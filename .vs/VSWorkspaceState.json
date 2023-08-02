@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.husky",
+    "\\src",
+    "\\src\\database",
+    "\\src\\database\\models",
+    "\\src\\database\\seeders"
+  ],
+  "PreviewInSolutionExplorer": false
+}
