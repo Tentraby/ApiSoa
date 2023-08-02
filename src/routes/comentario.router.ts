@@ -5,8 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _express = _interopRequireDefault(require("express"));
-// Ajusta la ruta de importación para usar './comentario.model'
-var _comentario = _interopRequireDefault(require("./comentario.model"));
+var _comentario = _interopRequireDefault(require("src/models/comentario.model"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const comentarioRouter = _express.default.Router();
 
@@ -22,4 +21,3 @@ comentarioRouter.post('/', async (req, res) => {
 });
 var _default = comentarioRouter;
 exports.default = _default;
-
